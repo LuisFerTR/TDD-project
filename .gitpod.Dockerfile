@@ -1,7 +1,8 @@
 FROM gitpod/workspace-gecko
 
-RUN apt-get install -y --no-install-recommends apt-utils
-RUN apt-get install -y wget \
+RUN sundo apt-get update
+RUN sudo apt-get install -y --no-install-recommends apt-utils
+RUN sudo apt-get install -y wget \
         build-essential \
         libgl1-mesa-glx \
         libgtk-3-dev 
