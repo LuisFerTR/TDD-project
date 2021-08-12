@@ -1,6 +1,6 @@
 FROM gitpod/workspace-gecko
 
-RUN sundo apt-get update
+RUN sudo apt-get update
 RUN sudo apt-get install -y --no-install-recommends apt-utils
 RUN sudo apt-get install -y wget \
         build-essential \
