@@ -1,4 +1,7 @@
+# Env files and folders
 .vscode
+.gitpod.yml
+.gitoid.Dockerfile
 
 *.pyc
 __pycache__
